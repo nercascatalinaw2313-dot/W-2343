@@ -18,11 +18,23 @@ public class DemoqaForm {
 
     @FindBy(id="userEmail")
     WebElement userEmail;
+    
+    @FindBy(id="userNumber")
+    WebElement userNumber
 
     public DemoqaForm(WebDriver driverParam)
     {
         driver = driverParam;
         PageFactory.initElements(driverParam,this);
+    }
+
+    public void setGender(String genderParam){
+        WebElement gen=driver.findElement(By.xpath("//*[@id='genterWrapper']//label[text()='"+genderParam +"']"));
+    gender.click();
+    }
+
+    public void set userNumber(set numberParam){
+        userNumber.clear();
     }
 
     public void setLastName(String lastNameParam)

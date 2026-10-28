@@ -12,9 +12,10 @@ public class FormTest {
 
     static public WebDriver driver;
     public static String URI = "https://demoqa.com/automation-practice-form";
-    public static String FIRST_NAME = "Eugeniu";
-    public static String LAST_NAME = "Poberejnîi";
-    public static String USER_EMAIL = "poberejniieugeniu@gmail.com";
+    public static String FIRST_NAME = "Catalina";
+    public static String LAST_NAME = "Nercas";
+    public static String USER_EMAIL = "nercascatalinaw2313@gmail.com";
+
 
     @BeforeTest
     public void beforeTest()
@@ -32,6 +33,7 @@ public class FormTest {
         form.setFirstName(FIRST_NAME);
         form.setLastName(LAST_NAME);
         form.setUserEmail(USER_EMAIL);
+        form.setGender(gender);
     }
 
 
