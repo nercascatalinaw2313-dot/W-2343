@@ -13,10 +13,10 @@ public class FormTest {
 
     static public WebDriver driver;
     public static String URI = "https://demoqa.com/automation-practice-form";
-    public static String FIRST_NAME = "Bogdan";
-    public static String LAST_NAME = "Bordei";
-    public static String USER_EMAIL = "bordeibogdan591@gmail.com";
-    public static String GENDER = "Male";
+    public static String FIRST_NAME = "Nercas";
+    public static String LAST_NAME = "Catalina";
+    public static String USER_EMAIL = "nercascatalinaw2313@gmail.com";
+    public static String GENDER = "Female";
     public static String USERNUMBER = "1234567890";
     public static String DATE = "18 Apr 1988";
     public static String SUBJECT = "Maths";
